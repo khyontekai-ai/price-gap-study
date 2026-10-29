@@ -1,0 +1,41 @@
+\begin{figure*}[tbp]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\footnotesize, minimum height=8mm, fill=blue!6, inner sep=3pt},
+  cand/.style={draw, rounded corners=2pt, align=center, font=\scriptsize, minimum height=5.2mm, minimum width=3.7cm, fill=orange!12, inner sep=2pt},
+  outbox/.style={draw, rounded corners=2pt, align=center, font=\footnotesize, minimum height=8mm, fill=green!10, inner sep=3pt},
+  arr/.style={-{Latex[length=2mm]}, thick},
+  lab/.style={font=\scriptsize\itshape, align=center}]
+\node[box, text width=2.9cm] (raw) at (0,0.95) {Agmarknet daily reports\\target and helper states};
+\node[box, text width=2.9cm] (mon) at (0,-0.65) {Monthly state\\averages};
+\node[box, text width=3.2cm] (panel) at (4.2,0.15) {Clean and aggregate\\Weekly log-price panel $Y$\\target markets $|$ helpers};
+\draw[arr] (raw.east) -- ++(0.45,0) |- ([yshift=2.5mm]panel.west);
+\draw[arr] (mon.east) -- ++(0.45,0) |- ([yshift=-2.5mm]panel.west);
+\node[cand] (c1) at (8.6,1.9) {1: factor + AR bridge};
+\node[cand] (c2) at (8.6,1.25) {2: factor + random-walk bridge};
+\node[cand] (c3) at (8.6,0.6) {3: factor + drifting neighbour basis};
+\node[cand] (c4) at (8.6,-0.05) {4: factor + pooled neighbours};
+\node[cand] (c5) at (8.6,-0.7) {5: AR bridge only};
+\node[cand] (c6) at (8.6,-1.35) {6: random-walk bridge only};
+\begin{scope}[on background layer]
+\node[draw, dashed, rounded corners=3pt, fit=(c1)(c2)(c3)(c4)(c5)(c6), inner sep=2.5mm, fill=orange!4] (group) {};
+\end{scope}
+\node[lab, above=0.5mm of group] {candidate fills of $Y$};
+\draw[arr] (panel.east) -- (group.west |- panel.east);
+\node[box, text width=3.0cm] (inner) at (13.0,1.35) {Inner masked reports\\retained after outer hiding\\three original masks};
+\node[box, text width=3.0cm] (nnls) at (13.0,-0.45) {NNLS coefficients\\then normalize to weights\\Equations~\eqref{eq:nnls}--\eqref{eq:weights}};
+\node[box, text width=3.0cm] (mix) at (13.0,-3.0) {Weighted log-price fill\\working variance includes\\candidate disagreement};
+\draw[arr] (group.east |- inner.west) -- (inner.west);
+\draw[arr] (inner) -- (nnls);
+\draw[arr] (nnls) -- (mix);
+\node[box, text width=3.2cm] (cal) at (8.6,-3.0) {Empirical variance scaling\\gap bins: 1, 2--3,\\4--8, 9+ weeks};
+\node[outbox, text width=3.2cm] (res) at (4.2,-3.0) {Filled panel and\\nominal intervals\\not a coverage guarantee};
+\node[outbox, text width=2.9cm] (use) at (0,-3.0) {Retrospective diagnostics\\and downstream\\sensitivity analyses};
+\draw[arr] (mix) -- (cal);
+\draw[arr] (cal) -- (res);
+\draw[arr] (res) -- (use);
+\end{tikzpicture}
+\caption{Pipeline overview. Candidate predictions are combined using nonnegative coefficients normalized after fitting, followed by empirical interval scaling. Helper-dependent candidates are omitted without helpers. The information regime determines which inputs are allowed; control C also changes inner validation. Nominal intervals and downstream analyses do not establish deployment readiness.}
+\Description{Daily and monthly reports form a weekly panel, six candidate families feed inner validation and normalized NNLS weights, and the weighted fill receives empirical variance scaling before retrospective evaluation.}
+\label{fig:pipeline}
+\end{figure*}

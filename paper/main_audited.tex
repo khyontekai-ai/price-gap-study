@@ -3,6 +3,9 @@
 \usepackage{booktabs}
 \usepackage{graphicx}
 \usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit,backgrounds}
 \usepackage{placeins}
 \graphicspath{{figures/}}
 \setlength{\emergencystretch}{1.5em}
@@ -132,6 +135,9 @@ Goa & Maharashtra and Karnataka (monthly only) \\
 
 \section{Regional-Factor Reconstruction}\label{sec:method}
 
+Figure~\ref{fig:pipeline} summarizes the reconstruction pipeline. The candidate family, normalized NNLS weights, and empirical interval scaling are described below; the diagram does not imply that nominal intervals have achieved their stated coverage.
+\input{fig_pipeline_audited}
+
 \subsection{Task, notation, and information sets}
 
 For a single commodity, let $p_{mt}>0$ denote a weekly price and $y_{mt}=\log p_{mt}$ its log, for series $m=1,\ldots,N$ and weeks $t=1,\ldots,T$. Only cells in the observed set $\mathcal O$ are available. Series $m\le P$ belong to target markets; the remaining series are helpers. The objective is to estimate missing target cells and report an interval, while leaving observed cells unchanged. The price estimate is obtained by exponentiating the estimated log price; it is not a bias-corrected conditional mean on the price scale.
@@ -242,6 +248,9 @@ Every scored target is a retained real report that is hidden before fitting. The
 
 Fixed-bridge settings were selected from twelve configurations using an Assam development run with different masks from the reported evaluation runs. They were then reused in the other states. The adaptive method uses the same candidate family across states but learns its weights within each panel. Different masks do not make the development and evaluation populations independent: both reuse the same underlying series. In addition, the random-walk candidates and adaptive ensemble were designed after earlier results had been inspected. Bihar and Goa therefore illustrate transfer of settings, not a blind external validation.
 
+Figure~\ref{fig:protocol} distinguishes the outer evaluation masks from the inner masks used to fit weights and interval scales. This cell-level separation does not resolve full-sample preprocessing, overlapping aggregates, publication timing, or result-informed model development.
+\input{fig_protocol_audited}
+
 \subsection{Baseline implementations and comparison cohorts}
 
 Ten baselines span simple, statistical, and learned methods. Carry-forward propagates the last report and backfills leading gaps in the retrospective benchmark. Linear interpolation and PCHIP interpolate internally and carry endpoint values. The local-level Kalman baseline selects a process-to-observation variance ratio from six values by likelihood and smooths each series \cite{moritz2017}. SoftImpute uses singular-value shrinkage of $0.15\sigma_1$ for up to 100 iterations \cite{mazumder2010}. The kNN implementation is a study-specific correlation-neighbour heuristic with $k=5$, a minimum of eight common weeks, and median price-offset adjustment; it is not a reproduction of Ma et al.'s forecasting system. Chained ML uses an iterative ExtraTrees imputer with fifty trees and five iterations, representing the broader chained-regression family rather than an exact reproduction of the World Bank model \cite{vanbuuren2011,stekhoven2012,andree2021}.
@@ -337,6 +346,9 @@ Error also depends on the gap geometry. In Assam's main scenarios, adaptive MAPE
 \end{figure}
 
 The ensemble takes approximately 3.9 seconds per Assam commodity panel on one CPU core, compared with 0.46 seconds for the fixed bridge, 6.0 seconds for SAITS, 18 seconds for BRITS, and 42 seconds for chained ML (Table~\ref{tab:runtime}). These timings characterize the tested configurations and local environment, not general model-family complexity.
+
+Figure~\ref{fig:example} illustrates a selected long-gap reconstruction; it is not a representative accuracy check. Supporting relative-gain, runtime, scenario, and random-deletion plots appear in Appendix~\ref{app:visuals}.
+\input{fig_example_audited}
 
 \subsection{Aggregate exclusion and information timing}\label{sec:controls}
 
@@ -434,25 +446,27 @@ Retrospective smoothing is not current-price estimation. B restricts fitting but
 The plug-in variance omits covariance and parameter-estimation terms; the same inner cells fit weights and interval scales. Outer coverage is inadequate in several states and at longer distances. The calendar bootstrap addresses one important dependence structure but not all shared-helper links or model-selection uncertainty. Panel tests and cell-weighted bootstrap differences have distinct estimands, and neither is a guarantee of reproducible prospective superiority.
 
 \paragraph{Scale and reproducibility.}
-The benchmark selects at most twenty commodities per state, uses three transplant seeds, and evaluates expensive baselines on a subset of runs. Results depend on fixed training budgets and fallback rules. The local study is not yet a self-contained public replication package: it depends on a sibling project, and the release manifest, immutable archive, and redistribution conditions remain unresolved. These are substantive release tasks, not evidence supplied by a successful local test run.
+The benchmark selects at most twenty commodities per state, uses three transplant seeds, and evaluates expensive baselines on a subset of runs. Results depend on fixed training budgets and fallback rules. The released study code includes self-contained daily/monthly loaders, tests, pinned environment records, and a saved-result verification command. Complete public empirical replication still requires lawful access to the matching price snapshots or prediction artifacts. An immutable archival DOI, independently verified retrieval times, and a self-contained downstream forecasting engine remain unavailable; successful local tests do not establish prospective validity.
 
 \section{Conclusion}
 
 A regional factor combined with market-specific residual bridging offers a useful reconstruction strategy for the selected short, sparse mandi panels. The adaptive ensemble reduces common-cohort pooled North-East MAPE from 26.5\% for SAITS to 19.3\%, with a positive calendar-block sensitivity interval for the difference. Aggregate-exclusion and origin-restricted controls qualify rather than erase that result: the pooled advantage persists, but Goa's original gain depends on its state aggregate, and simple methods remain preferable in some states. Interval undercoverage and the absence of untouched confirmation prevent a deployment claim. The next scientific step is a frozen, release-aware evaluation with origin-wise learned baselines and independently assessed uncertainty, not a stronger interpretation of the existing retrospective comparisons.
 
 \section*{Data and Code Availability}
-The study currently exists as a local code and result archive. The \texttt{gapfill} package depends on the sibling crop-price forecasting project's \texttt{cropcast} loaders. Daily responses were obtained from \url{https://api.agmarknet.gov.in/v1/dashboard-data/}; monthly responses from \url{https://api.agmarknet.gov.in/v1/price-trend/wholesale-prices-monthly}. No public repository, archival DOI, complete request manifest, or verified redistribution licence is claimed here. Public reproducibility therefore remains pending.
+Study code, tests, environment records, and reproduction instructions are hosted at \url{https://github.com/khyontekai-ai/price-gap-study}. The original software is MIT-licensed; this licence does not apply to the source price data or manuscript. The release includes daily/monthly loaders without a neighbouring-checkout dependency, source-snapshot checksums, and historical request templates. Daily responses were obtained from \url{https://api.agmarknet.gov.in/v1/dashboard-data/}; monthly responses from \url{https://api.agmarknet.gov.in/v1/price-trend/wholesale-prices-monthly}. Raw snapshots and row-level predictions are not publicly redistributed while source-data permissions remain unverified. The no-training reproduction path requires those matching artifacts; code availability alone therefore does not provide complete public empirical replication. No archival DOI or complete timestamped HTTP-response history is claimed.
 
 \section*{AI-Assisted Preparation}
 AI-assisted tools were used for code review, bibliographic checks, and revision of prose and LaTeX. The author remains responsible for the claims, references, numerical results, and final manuscript. This assistance does not constitute independent scientific validation.
 
 \FloatBarrier
+\onecolumn
+\begin{multicols}{2}
 \begingroup
 \interlinepenalty=10000
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{refs_audited}
 \endgroup
-\onecolumn
+\end{multicols}
 \appendix
 \begingroup
 % Appendix tables flow in reading order instead of waiting in a double-column float queue.
@@ -483,5 +497,6 @@ The following tables retain the saved experiments, with their original numerical
 \input{tab_missing_revised}
 \input{tab_commodity_revised}
 \end{minipage}
+\input{appendix_visuals_audited}
 \endgroup
 \end{document}

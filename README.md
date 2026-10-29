@@ -5,7 +5,11 @@ with Regional Factors**, Pritam Deka, Khyontek AI (2026). Version 0.1.0.
 
 This is an exploratory retrospective reconstruction study, not a deployed
 current-price service. The audited manuscript, with 59 references and 18 tables,
-is in `paper/main_audited.pdf`. No arXiv ID or archive DOI has been assigned.
+is in `paper/main_audited.pdf`: 17 pages and 11 figures, including the restored
+pipeline and masking schematics. Code repository:
+https://github.com/khyontekai-ai/price-gap-study. No arXiv ID or archive DOI has
+been assigned. The direct arXiv source upload is `paper/arxiv_submission.zip`;
+see `paper/ARXIV_UPLOAD.md` and `paper/ARXIV_METADATA.txt` for submission steps.
 
 ## What is included
 

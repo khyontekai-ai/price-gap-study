@@ -2,6 +2,16 @@
 
 Prepared 29 October 2026. This is a packaging version, not a new scientific run.
 
+## Manuscript follow-up
+
+Added the author-confirmed GitHub repository link, updated availability scope,
+restored the pipeline and outer/inner masking diagrams and five supporting
+plots, and corrected the filtering legend without changing its sixteen values.
+The current manuscript is 17 pages with 11 figures. `paper/arxiv_submission.zip`
+is a clean-compiling source upload with metadata/instructions alongside it.
+No additional scientific experiment, automatic follow-up push or arXiv
+submission is claimed. Original packaging details below are historical.
+
 - Self-contained daily/monthly loaders replace a neighbouring-checkout import.
 - MIT licence for original software, author citation metadata and explicit scope
   exclusions for the manuscript and third-party data.

@@ -1,6 +1,10 @@
 # Release preparation tracker
 
-Version 0.1.0, prepared 29 October 2026. Nothing uploaded or published.
+Version 0.1.0, updated 29 October 2026. The author confirms uploading the code to
+https://github.com/khyontekai-ai/price-gap-study. The 17-page paper now cites this
+URL and restores both method diagrams and five supporting plots (11 figures
+total). A direct arXiv source ZIP with metadata is prepared. No arXiv submission,
+follow-up GitHub push, data upload or archive DOI was performed in this revision.
 
 ## Completed packaging
 
@@ -41,9 +45,9 @@ must not be confused with the code-only archive suitable for GitHub.
 
 ## Remaining publication decisions
 
-- Choose GitHub owner/repository and private/public visibility, then authenticate.
-- Install GitHub CLI (`gh`) if it is not available; Git is already available on
-  the packaging machine. The upload script checks both before making changes.
+- Review and push the locally updated paper/manifest/citation files to the
+  existing GitHub repository. Git Bash is sufficient; the follow-up commands in
+  `paper/ARXIV_UPLOAD.md` do not require GitHub CLI.
 - Verify source-data redistribution rights before third-party artifact hosting.
 - Review dataset terms and card before a Hugging Face upload. No licence is
   invented for prices, and MIT does not grant data rights.

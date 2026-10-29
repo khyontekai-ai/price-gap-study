@@ -1,0 +1,129 @@
+{
+  "author": "Pritam Deka",
+  "email": "pritam@khyontekai.com",
+  "affiliation": "Khyontek AI",
+  "references": 59,
+  "contribution_bullets": 3,
+  "related_subsections": 4,
+  "standalone_limitations": true,
+  "references_start_page": 11,
+  "appendix_start_page": 13,
+  "table_captions": 18,
+  "math_unchanged": true,
+  "result_tables_unchanged": true,
+  "table_fragments_checked": [
+    "datastats.tex",
+    "tab_controls_audited.tex",
+    "tab_causal_audited.tex",
+    "tab_matchedprep_revised.tex",
+    "tab_inference_audited.tex",
+    "tab_downstream_audited.tex",
+    "appendix_settings_audited.tex",
+    "tab_online_revised.tex",
+    "tab_tests_revised.tex",
+    "tab_ablation_revised.tex",
+    "tab_calib_revised.tex",
+    "tab_gaplen_revised.tex",
+    "tab_runtime_revised.tex",
+    "tab_missing_revised.tex",
+    "tab_commodity_revised.tex"
+  ],
+  "pdf_pages": [
+    {
+      "page": 1,
+      "characters": 5745
+    },
+    {
+      "page": 2,
+      "characters": 6081
+    },
+    {
+      "page": 3,
+      "characters": 5586
+    },
+    {
+      "page": 4,
+      "characters": 3807
+    },
+    {
+      "page": 5,
+      "characters": 5283
+    },
+    {
+      "page": 6,
+      "characters": 6323
+    },
+    {
+      "page": 7,
+      "characters": 3440
+    },
+    {
+      "page": 8,
+      "characters": 4837
+    },
+    {
+      "page": 9,
+      "characters": 3450
+    },
+    {
+      "page": 10,
+      "characters": 3519
+    },
+    {
+      "page": 11,
+      "characters": 4217
+    },
+    {
+      "page": 12,
+      "characters": 6182
+    },
+    {
+      "page": 13,
+      "characters": 10194
+    },
+    {
+      "page": 14,
+      "characters": 5991
+    },
+    {
+      "page": 15,
+      "characters": 2555
+    },
+    {
+      "page": 16,
+      "characters": 2097
+    },
+    {
+      "page": 17,
+      "characters": 1067
+    }
+  ],
+  "public_reproducibility_release": "pending; not an arXiv repository requirement",
+  "existing_tests": {
+    "passed": 27,
+    "warnings": 12,
+    "warning_kind": "pre-existing sparse-panel empty-slice warnings"
+  },
+  "artifacts": {
+    "main_audited.tex": "160c05539a4f227c5e814a6f94c16717d5b082847d20d9adff9d59766e1621d4",
+    "main_audited.pdf": "a933c0a2be074200bda560e2a72669acff0abf09e9f55abd471569a5b12ff13e",
+    "refs_audited.bib": "8f2e9ed477835494582277fa4204b6a1b290faa27f0f63f0662f1e0430c03fb9",
+    "appendix_settings_audited.tex": "2fc476e0f1b677bcdf218b5bf6c57c1a54acfae9a8f223b1d4aeb3887c83472d",
+    "arxiv_submission.zip": "276d60ee47a06957b7ca6d56d8cec288f5636d0554d0612b447ff93d742b1a74"
+  },
+  "pdf_page_count": 17,
+  "figure_captions": 11,
+  "github_link": "https://github.com/khyontekai-ai/price-gap-study",
+  "repository_visibility_independently_verified": false,
+  "diagrams_restored": [
+    "pipeline",
+    "outer-inner masks"
+  ],
+  "supporting_plots_restored": 5,
+  "arxiv_source_files": 31,
+  "arxiv_clean_compilation": true,
+  "arxiv_submitted": false,
+  "bibliography_entries": 59,
+  "visual_qa": "full contact sheet and restored figures inspected",
+  "original_experiment_outputs_modified": false
+}

@@ -1,0 +1,29 @@
+\begin{figure*}[tbp]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\scriptsize, minimum height=7mm, fill=blue!6, inner sep=2.5pt, text width=2.35cm},
+  hid/.style={draw, rounded corners=2pt, align=center, font=\scriptsize, minimum height=7mm, fill=red!8, inner sep=2.5pt, text width=2.35cm},
+  inn/.style={draw, rounded corners=2pt, align=center, font=\scriptsize, minimum height=7mm, fill=orange!12, inner sep=2.5pt, text width=2.35cm},
+  arr/.style={-{Latex[length=1.6mm]}, thick}]
+\node[box] (real) at (0,0) {Retained real reports\\observed scoring population};
+\node[hid] (outer) at (3.6,0) {Outer hiding\\evaluation cells $H_{\mathrm{out}}$};
+\node[box] (vis) at (7.2,0) {Visible cells\\$\mathcal O\setminus H_{\mathrm{out}}$};
+\draw[arr] (real) -- (outer);
+\draw[arr] (outer) -- (vis);
+\node[box] (base) at (7.2,-1.55) {Baselines predict\\the outer hidden cells};
+\node[inn] (in1) at (3.6,-1.55) {Inner masks\\$J_r\subset\mathcal O\setminus H_{\mathrm{out}}$};
+\node[inn] (w) at (3.6,-2.95) {Fit stacking weights\\and interval scales};
+\node[box] (auto) at (7.2,-2.95) {\auto{} predicts\\the outer hidden cells};
+\draw[arr] (vis) -- (base);
+\draw[arr] (vis.south west) -- (in1.north east);
+\draw[arr] (in1) -- (w);
+\draw[arr] (w) -- (auto);
+\node[box, text width=2.2cm] (score) at (11.2,-2.25) {Score against retained\\real truths in $H_{\mathrm{out}}$};
+\draw[arr] (base.east) -- ++(0.3,0) |- (score.north west);
+\draw[arr] (auto.east) -- ++(0.3,0) |- (score.south west);
+\node[hid, fill=gray!15, text width=2.6cm] at (0,-2.25) {Assam development masks\\select fixed-bridge settings;\\underlying series are reused};
+\end{tikzpicture}
+\caption{Outer/inner masking schematic. Outer targets are excluded before generating the ensemble's inner masks. Different masks reuse the same source series and do not constitute an untouched test population. The schematic does not certify release-aware preprocessing or eliminate aggregate overlap and result-informed development; the controls address only specified parts of these concerns.}
+\Description{Outer hiding produces visible reports used by baselines and the ensemble. Inner masks drawn only from visible reports fit weights and interval scales, while outer truths are reserved for scoring. Assam development is explicitly not an independent population.}
+\label{fig:protocol}
+\end{figure*}
