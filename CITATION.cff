@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this research software and the accompanying manuscript. No DOI or arXiv identifier has been assigned."
+title: "Reconstructing Missing Mandi Prices in North-East India with Regional Factors"
+type: software
+version: 0.1.0
+date-released: 2026-10-29
+authors:
+  - family-names: Deka
+    given-names: Pritam
+    email: pritam@khyontekai.com
+    affiliation: Khyontek AI
+license: MIT

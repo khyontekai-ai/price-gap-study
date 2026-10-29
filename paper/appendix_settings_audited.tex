@@ -1,0 +1,19 @@
+\begin{table}[t]
+\caption{Settings of the implemented retrospective pipeline. Fixed-bridge selection used the Assam development masks; ensemble design also used earlier exploratory results. Control C changes eligibility, input processing, and inner validation as described in the text.}
+\label{tab:settings}
+\small
+\begin{tabular}{p{0.18\linewidth}p{0.75\linewidth}}
+\toprule
+Part & Setting \\
+\midrule
+Panel & Target market $\ge10$ reported weeks; helper market $\ge20$; monthly state series $\ge3$ months; commodity $\ge150$ reported days in the state, at most 20 per state \\
+Cleaning & Factor 3 against own median ($\pm21$ days) and state-week median; factor 8 against long-run state median \\
+Factor model & 6 rounds; loadings clipped to $[0.2,3]$ (or fixed at 1); lags $\{0\}$ or $\{0,1,2\}$; at least 6 reports per series; factor variance floor $10^{-5}$; basis drift variance $0.1q$ at start \\
+AR bridge & $\rho_m\in[0,0.97]$ from residual pairs at gaps $\le4$ weeks, weighted $1/g$ \\
+Inner validation & 3 transplant masks; masked markets with $\ge20$ reports; donors reporting 15--90\% of weeks; $\ge6$ reports kept; at least 60 inner cells, else candidate 1 only \\
+Stacking & NNLS on the hidden truth, weights rescaled to sum to one \\
+Calibration & Gap bins 1, 2--3, 4--8, 9+ weeks; scale $(Q_{0.8}(z)/1.2816)^2$; bins with $<30$ cells use the pooled value \\
+Safety rule & Replace non-finite fills or a log-price departure greater than $\log 10$ from the carry-forward/backfilled reference; origin-wise controls use the last earlier report \\
+\bottomrule
+\end{tabular}
+\end{table}

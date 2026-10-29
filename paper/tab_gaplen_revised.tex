@@ -1,0 +1,21 @@
+\begin{table}[tbp]
+\caption{Offline MAPE (\%) in Assam by distance to the nearest visible report of the same market.}
+\label{tab:gaplen}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Method & 1 week & 2--3 weeks & 4--8 weeks & 9+ weeks \\
+\midrule
+\auto{} & \textbf{10.4} & \textbf{14.9} & \textbf{17.3} & \textbf{24.5} \\
+bridge (fixed) & 11.0 & 15.5 & 18.5 & 25.3 \\
+no AR bridge & 16.8 & 19.4 & 20.2 & 25.8 \\
+no regional factor & 12.8 & 22.3 & 33.8 & 51.2 \\
+SAITS & 12.7 & 18.6 & 24.8 & 40.7 \\
+chained ML & 15.0 & 21.5 & 27.9 & 39.2 \\
+BRITS & 12.4 & 19.2 & 27.1 & 43.3 \\
+linear & 11.2 & 19.1 & 30.1 & 60.3 \\
+Kalman & 11.9 & 19.8 & 30.7 & 60.2 \\
+carry-forward & 20.7 & 28.6 & 35.2 & 61.8 \\
+\bottomrule
+\end{tabular}
+\end{table}

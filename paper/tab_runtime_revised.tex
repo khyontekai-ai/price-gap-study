@@ -1,0 +1,23 @@
+\begin{table}[tbp]
+\caption{Runtime to fill one commodity panel in Assam (about 60 target markets and 100 helper series), one CPU core.}
+\label{tab:runtime}
+\small
+\begin{tabular}{lr}
+\toprule
+Method & Seconds per commodity panel \\
+\midrule
+carry-forward & 0.06 \\
+linear & 0.07 \\
+PCHIP & 0.09 \\
+SoftImpute & 0.18 \\
+Kalman & 0.18 \\
+bridge (fixed) & 0.46 \\
+kNN & 0.89 \\
+\auto{} & 3.89 \\
+SAITS & 6.03 \\
+DFM-EM & 6.04 \\
+BRITS & 18.33 \\
+chained ML & 42.06 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,368 @@
+{
+  "raw_records_included": false,
+  "retrieval_timestamp": "not independently recorded",
+  "redistribution_rights": "unverified; not licensed by the code MIT licence",
+  "files": [
+    {
+      "filename": "assam_2024.jsonl",
+      "sha256": "40a3df5bdc0f3984f6a454ade5aa43ff5190a4c3d98726dddd455d238ef06d00",
+      "bytes": 6422261,
+      "envelopes": 184,
+      "records": 20116,
+      "first": "2024-07-01",
+      "last": "2024-12-31",
+      "states": [
+        "Assam"
+      ]
+    },
+    {
+      "filename": "assam_2025.jsonl",
+      "sha256": "1a3aede8023c5a1b57f70ceaf29e9fb972a0cfe44891ccc305cdc14d1636b7c0",
+      "bytes": 16189544,
+      "envelopes": 365,
+      "records": 51089,
+      "first": "2025-01-01",
+      "last": "2025-12-31",
+      "states": [
+        "Assam"
+      ]
+    },
+    {
+      "filename": "assam_2026.jsonl",
+      "sha256": "5ffd1677e3443ba711780f8f5b87ed8491f4d9c68091f8f0bfeacdeebe56220e",
+      "bytes": 11554148,
+      "envelopes": 299,
+      "records": 34448,
+      "first": "2026-01-01",
+      "last": "2026-10-26",
+      "states": [
+        "Assam"
+      ]
+    },
+    {
+      "filename": "bihar_2024.jsonl",
+      "sha256": "880116293d51a4f3cafcefa112d0e5a9c3097059c908649c8fc3f0d9a0547a86",
+      "bytes": 965390,
+      "envelopes": 153,
+      "records": 2917,
+      "first": "2024-08-01",
+      "last": "2024-12-31",
+      "states": [
+        "Bihar"
+      ]
+    },
+    {
+      "filename": "bihar_2025.jsonl",
+      "sha256": "3d6551bfd62ff37336c001fa51ec92fad27286be91c401291e3eb241ce2de4b4",
+      "bytes": 1337472,
+      "envelopes": 365,
+      "records": 4042,
+      "first": "2025-01-01",
+      "last": "2025-12-31",
+      "states": [
+        "Bihar"
+      ]
+    },
+    {
+      "filename": "bihar_2026.jsonl",
+      "sha256": "830a9447943c8c4808d833ed61114f2be10d9b665afa55ca1a96752f2c691c3a",
+      "bytes": 3635282,
+      "envelopes": 299,
+      "records": 10835,
+      "first": "2026-01-01",
+      "last": "2026-10-26",
+      "states": [
+        "Bihar"
+      ]
+    },
+    {
+      "filename": "goa_2024.jsonl",
+      "sha256": "7a3a908184ee3636fe1837ee4b6006f33de2c6e9b1dc302246ebbf460ddbe1fa",
+      "bytes": 243696,
+      "envelopes": 153,
+      "records": 746,
+      "first": "2024-08-01",
+      "last": "2024-12-31",
+      "states": [
+        "Goa"
+      ]
+    },
+    {
+      "filename": "goa_2025.jsonl",
+      "sha256": "a446fa8e9fe17db38eea6b25c022b830315daaf9fdddce64eae3b727651b7fe2",
+      "bytes": 541997,
+      "envelopes": 365,
+      "records": 1658,
+      "first": "2025-01-01",
+      "last": "2025-12-31",
+      "states": [
+        "Goa"
+      ]
+    },
+    {
+      "filename": "goa_2026.jsonl",
+      "sha256": "6096afa52f83cf431c23c7c09b91587e2c8514a8c9f026d543b2e930880f2072",
+      "bytes": 462051,
+      "envelopes": 299,
+      "records": 1414,
+      "first": "2026-01-01",
+      "last": "2026-10-26",
+      "states": [
+        "Goa"
+      ]
+    },
+    {
+      "filename": "jharkhand_2024.jsonl",
+      "sha256": "f5daec7022c20482e41e516035c0f03e264f18506d1098988f2b4cbe8b5a2eac",
+      "bytes": 5508,
+      "envelopes": 153,
+      "records": 0,
+      "first": "2024-08-01",
+      "last": "2024-12-31",
+      "states": []
+    },
+    {
+      "filename": "jharkhand_2025.jsonl",
+      "sha256": "ae72d5a3d6b98ab0f171de5db285b30c4164d9140d14cdfa625d430804655764",
+      "bytes": 13140,
+      "envelopes": 365,
+      "records": 0,
+      "first": "2025-01-01",
+      "last": "2025-12-31",
+      "states": []
+    },
+    {
+      "filename": "jharkhand_2026.jsonl",
+      "sha256": "c7738e93a52644fc4eda063ae0134288b457cd6996e59c848b5d225d0b42cd3f",
+      "bytes": 10764,
+      "envelopes": 299,
+      "records": 0,
+      "first": "2026-01-01",
+      "last": "2026-10-26",
+      "states": []
+    },
+    {
+      "filename": "manipur_2024.jsonl",
+      "sha256": "651f1d97f0f0fccf1bd98df5d365fa9afee2731d26c5cbed7f2787145c05743c",
+      "bytes": 892521,
+      "envelopes": 153,
+      "records": 2700,
+      "first": "2024-08-01",
+      "last": "2024-12-31",
+      "states": [
+        "Manipur"
+      ]
+    },
+    {
+      "filename": "manipur_2025.jsonl",
+      "sha256": "3429d17f279f1306e3b58f48276fdeceb072231851bcec6bb7b5be57dacef9da",
+      "bytes": 2352693,
+      "envelopes": 365,
+      "records": 7066,
+      "first": "2025-01-01",
+      "last": "2025-12-31",
+      "states": [
+        "Manipur"
+      ]
+    },
+    {
+      "filename": "manipur_2026.jsonl",
+      "sha256": "744282fc27622758bc915843a6ab409e72852d7d0a4e14c5bc70addb6965aaa7",
+      "bytes": 1691213,
+      "envelopes": 299,
+      "records": 5088,
+      "first": "2026-01-01",
+      "last": "2026-10-26",
+      "states": [
+        "Manipur"
+      ]
+    },
+    {
+      "filename": "meghalaya_2024.jsonl",
+      "sha256": "4ac4645b7ee776b3b661c9396b8d69c307506ec99a24aa46aba6785ba6efb992",
+      "bytes": 1004125,
+      "envelopes": 153,
+      "records": 3149,
+      "first": "2024-08-01",
+      "last": "2024-12-31",
+      "states": [
+        "Meghalaya"
+      ]
+    },
+    {
+      "filename": "meghalaya_2025.jsonl",
+      "sha256": "289695218c636836195ebc9c5e0079025f976302edf65c7467aa6351c3b74de2",
+      "bytes": 2449024,
+      "envelopes": 365,
+      "records": 7761,
+      "first": "2025-01-01",
+      "last": "2025-12-31",
+      "states": [
+        "Meghalaya"
+      ]
+    },
+    {
+      "filename": "meghalaya_2026.jsonl",
+      "sha256": "b47c02513dc99b421bc51f67bf21a3cd0c79acae583666802996cbb4d3eeb9f2",
+      "bytes": 2935652,
+      "envelopes": 299,
+      "records": 9177,
+      "first": "2026-01-01",
+      "last": "2026-10-26",
+      "states": [
+        "Meghalaya"
+      ]
+    },
+    {
+      "filename": "nagaland_2024.jsonl",
+      "sha256": "7c828a53475e14e158aab54870fe24bd0b6f139c45c72160a41206307d3bcc15",
+      "bytes": 1096096,
+      "envelopes": 153,
+      "records": 3371,
+      "first": "2024-08-01",
+      "last": "2024-12-31",
+      "states": [
+        "Nagaland"
+      ]
+    },
+    {
+      "filename": "nagaland_2025.jsonl",
+      "sha256": "3d49191735a9c57a1c3bb23c6b602ad2010fe5800f0edd75ed14fb90b7666d1f",
+      "bytes": 1934955,
+      "envelopes": 365,
+      "records": 5956,
+      "first": "2025-01-01",
+      "last": "2025-12-31",
+      "states": [
+        "Nagaland"
+      ]
+    },
+    {
+      "filename": "nagaland_2026.jsonl",
+      "sha256": "8e509aa427905b3cc187d632d5f9d414e069313a814f72736ff66041c8d1e342",
+      "bytes": 1645114,
+      "envelopes": 299,
+      "records": 5148,
+      "first": "2026-01-01",
+      "last": "2026-10-26",
+      "states": [
+        "Nagaland"
+      ]
+    },
+    {
+      "filename": "statewise_monthly.jsonl",
+      "sha256": "d342de9d377ea2b15483d08ce67e3a70529e77262cba4adbb85e81b3f83ea686",
+      "bytes": 4865231,
+      "envelopes": 1260,
+      "records": 24965,
+      "first": "2021-01",
+      "last": "2026-10",
+      "states": [
+        "Andaman and Nicobar",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chandigarh",
+        "Chattisgarh",
+        "Goa",
+        "Gujarat",
+        "Haryana",
+        "Himachal Pradesh",
+        "Jammu and Kashmir",
+        "Jharkhand",
+        "Karnataka",
+        "Keralam",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "NCT of Delhi",
+        "Nagaland",
+        "Odisha",
+        "Pondicherry",
+        "Punjab",
+        "Rajasthan",
+        "Tamil Nadu",
+        "Telangana",
+        "Tripura",
+        "Uttar Pradesh",
+        "Uttarakhand",
+        "West Bengal"
+      ]
+    },
+    {
+      "filename": "tripura_2024.jsonl",
+      "sha256": "105b1fae68bd8407dc7cc382ec7b79352321fa054696fb2e71d7676b791da92e",
+      "bytes": 6302758,
+      "envelopes": 153,
+      "records": 18870,
+      "first": "2024-08-01",
+      "last": "2024-12-31",
+      "states": [
+        "Tripura"
+      ]
+    },
+    {
+      "filename": "tripura_2025.jsonl",
+      "sha256": "1193294021c1b94283327ed54691ea50f164689b20ff18b11bef62c4d4b11484",
+      "bytes": 14094958,
+      "envelopes": 365,
+      "records": 42097,
+      "first": "2025-01-01",
+      "last": "2025-12-31",
+      "states": [
+        "Tripura"
+      ]
+    },
+    {
+      "filename": "tripura_2026.jsonl",
+      "sha256": "4171120f824ca6b16038e81659194d985adc129c844a9b38c3b9e12a3b1c6e5a",
+      "bytes": 12204797,
+      "envelopes": 299,
+      "records": 36484,
+      "first": "2026-01-01",
+      "last": "2026-10-26",
+      "states": [
+        "Tripura"
+      ]
+    },
+    {
+      "filename": "west_bengal_2024.jsonl",
+      "sha256": "ade8e2f2237db39d1b822f277bf27f03c8080b6cefdb5bb6cffc8872caab78eb",
+      "bytes": 17901465,
+      "envelopes": 153,
+      "records": 52514,
+      "first": "2024-08-01",
+      "last": "2024-12-31",
+      "states": [
+        "West Bengal"
+      ]
+    },
+    {
+      "filename": "west_bengal_2025.jsonl",
+      "sha256": "8cccc72cc9b1ca0d03e7fc75ad259a58271742e421039c175292f5f6a32fc2b4",
+      "bytes": 42165363,
+      "envelopes": 365,
+      "records": 123635,
+      "first": "2025-01-01",
+      "last": "2025-12-31",
+      "states": [
+        "West Bengal"
+      ]
+    },
+    {
+      "filename": "west_bengal_2026.jsonl",
+      "sha256": "d171b612720ecce681a4efdd11385674a30ab3564e413b8a664d19eee9ac65a2",
+      "bytes": 31390013,
+      "envelopes": 299,
+      "records": 92001,
+      "first": "2026-01-01",
+      "last": "2026-10-26",
+      "states": [
+        "West Bengal"
+      ]
+    }
+  ]
+}

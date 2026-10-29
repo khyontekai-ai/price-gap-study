@@ -1,0 +1,38 @@
+\begin{table*}[t]
+\caption{Exploratory dependence-aware comparisons on matched cells. Diff. is comparator minus adaptive MAPE (points). Commodity CI resamples state--commodity panels within states; Two-way CI also resamples common 13-week calendar blocks anchored on 5 January 1970 (95\%, 2,000 draws). Panels counts positive panel-mean differences. Wilcoxon $p$ values are Holm-adjusted across comparisons within each setting and scope, before selecting the closest state comparator. Bootstrap and panel-test estimands differ. Offline cohorts vary by comparator and need not match Table~\ref{tab:main}. C includes both input-processing and ensemble-validation changes.}
+\label{tab:inference}
+\small
+\setlength{\tabcolsep}{4.5pt}
+\begin{tabular}{lll rrr cc rr}
+\toprule
+Setting & Scope & Comparison & \auto{} & Other & Diff. & Commodity CI & Two-way CI & Panels & $p$ \\
+\midrule
+offline & NE pooled & SAITS & 19.3 & 26.5 & 7.2 & 4.7 to 10.0 & 2.8 to 12.7 & 57/68 & $<$0.001 \\
+ &  & chained ML & 19.3 & 26.7 & 7.5 & 5.1 to 10.1 & 2.8 to 13.6 & 56/68 & $<$0.001 \\
+ &  & linear & 14.7 & 23.8 & 9.1 & 6.1 to 12.4 & 4.4 to 14.5 & 47/68 & $<$0.001 \\
+ &  & PCHIP & 14.7 & 23.8 & 9.1 & 6.2 to 12.4 & 4.6 to 14.3 & 47/68 & $<$0.001 \\
+ &  & BRITS & 19.3 & 28.6 & 9.3 & 6.5 to 12.5 & 4.4 to 16.3 & 60/68 & $<$0.001 \\
+ &  & Kalman & 14.7 & 24.8 & 10.1 & 6.9 to 13.8 & 5.0 to 16.1 & 49/68 & $<$0.001 \\
+ &  & kNN & 14.7 & 27.1 & 12.4 & 10.8 to 14.2 & 10.4 to 14.5 & 68/68 & $<$0.001 \\
+ &  & SoftImpute & 14.7 & 27.1 & 12.4 & 10.0 to 15.2 & 8.2 to 18.4 & 68/68 & $<$0.001 \\
+ &  & carry-forward & 14.7 & 30.1 & 15.4 & 11.7 to 19.4 & 8.9 to 22.4 & 64/68 & $<$0.001 \\
+ &  & DFM-EM & 19.3 & 39.8 & 20.5 & 14.2 to 28.1 & 10.9 to 31.8 & 61/68 & $<$0.001 \\
+\midrule
+origin-restr. (B) & NE pooled & fixed bridge & 19.0 & 19.0 & $-0.1$ & $-0.3$ to 0.2 & $-0.5$ to 0.3 & 23/48 & 0.931 \\
+ &  & carry-forward & 19.0 & 37.1 & 18.1 & 12.5 to 23.0 & 8.5 to 28.6 & 30/48 & $<$0.001 \\
+ &  & Kalman & 19.0 & 37.7 & 18.7 & 12.8 to 23.7 & 8.7 to 29.8 & 33/48 & $<$0.001 \\
+\midrule
++ combined (C) & NE pooled & fixed bridge & 19.7 & 20.5 & 0.7 & $-0.3$ to 2.2 & $-0.6$ to 3.4 & 25/48 & 0.899 \\
+ &  & carry-forward & 19.7 & 30.8 & 11.0 & 7.2 to 15.3 & 5.8 to 17.0 & 29/48 & 0.039 \\
+ &  & Kalman & 19.7 & 31.1 & 11.4 & 7.5 to 15.7 & 6.0 to 17.6 & 29/48 & 0.039 \\
+\midrule
+offline, closest & Assam & SAITS & 19.8 & 30.5 & 10.7 & 7.4 to 14.3 & 4.8 to 17.0 & 19/20 & $<$0.001 \\
+ & Meghalaya & linear & 13.2 & 12.7 & $-0.4$ & $-1.4$ to 0.3 & $-1.6$ to 0.7 & 5/12 & 0.904 \\
+ & Manipur & chained ML & 13.4 & 15.4 & 2.0 & $-0.1$ to 4.2 & $-0.7$ to 5.4 & 7/8 & 0.234 \\
+ & Nagaland & linear & 15.9 & 15.4 & $-0.5$ & $-1.2$ to 0.1 & $-1.6$ to 0.3 & 5/12 & 0.549 \\
+ & Tripura & chained ML & 19.6 & 24.3 & 4.7 & 1.3 to 9.3 & $-0.9$ to 11.9 & 13/16 & 0.004 \\
+ & Bihar & kNN & 10.9 & 17.2 & 6.3 & 2.9 to 9.1 & 2.3 to 9.8 & 11/11 & 0.010 \\
+ & Goa & linear & 9.4 & 10.1 & 0.7 & 0.1 to 1.4 & $-0.4$ to 2.2 & 4/5 & -- \\
+\bottomrule
+\end{tabular}
+\end{table*}

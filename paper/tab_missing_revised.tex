@@ -1,0 +1,19 @@
+\begin{table}[tbp]
+\caption{Offline MAPE (\%) in Assam when 20\% to 80\% of reports are hidden at random.}
+\label{tab:missing}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Method & 20\% hidden & 40\% & 60\% & 80\% \\
+\midrule
+\auto{} & \textbf{9.5} & \textbf{10.4} & \textbf{11.5} & \textbf{13.7} \\
+bridge (fixed) & 9.7 & 10.7 & 12.0 & 14.7 \\
+PCHIP & 10.7 & 11.8 & 13.7 & 19.2 \\
+linear & 10.5 & 11.7 & 13.7 & 19.2 \\
+Kalman & 10.7 & 12.2 & 15.3 & 23.8 \\
+SoftImpute & 16.1 & 18.0 & 21.3 & 27.6 \\
+kNN & 15.9 & 23.1 & 25.5 & 28.7 \\
+carry-forward & 15.4 & 17.2 & 22.1 & 30.9 \\
+\bottomrule
+\end{tabular}
+\end{table}

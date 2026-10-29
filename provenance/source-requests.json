@@ -1,0 +1,61 @@
+{
+  "historical_loader_constants": {
+    "API": "https://api.agmarknet.gov.in/v1/dashboard-data/",
+    "ALL_COMMODITIES": 100001,
+    "STATES": {
+      "Assam": 4,
+      "West Bengal": 36,
+      "Meghalaya": 22,
+      "Bihar": 5,
+      "Tripura": 33,
+      "Uttar Pradesh": 34,
+      "Manipur": 21,
+      "Nagaland": 24,
+      "Jharkhand": 15,
+      "Goa": 10
+    },
+    "TREND": "https://api.agmarknet.gov.in/v1/price-trend/wholesale-prices-monthly",
+    "MONTHLY_COMMODITIES": {
+      "Potato": 24,
+      "Onion": 23,
+      "Rice": 3,
+      "Paddy(Common)": 2,
+      "Mustard": 12,
+      "Tomato": 65,
+      "Ginger(Green)": 87,
+      "Green Chilli": 73,
+      "Jute": 16,
+      "Maize": 4,
+      "Turmeric": 35,
+      "Cabbage": 126,
+      "Brinjal": 32,
+      "Cauliflower": 31,
+      "Capsicum": 136,
+      "Pumpkin": 70,
+      "Lemon": 261,
+      "Banana": 19
+    }
+  },
+  "daily_request": {
+    "method": "POST",
+    "body": {
+      "dashboard": "market_details_sp",
+      "commodity": [
+        100001
+      ],
+      "state": [
+        "state_id"
+      ],
+      "date": "YYYY-MM-DD",
+      "limit": 500,
+      "page": "1..total_pages",
+      "format": "json"
+    }
+  },
+  "monthly_request": {
+    "method": "GET",
+    "query": "report_mode=Statewise&commodity=ID&year=YYYY&month=M&state=0&district=0&export=false"
+  },
+  "full_per_response_request_log": "not retained; snapshot envelopes identify dates/commodities, not every HTTP response",
+  "live_download_tested_during_packaging": false
+}

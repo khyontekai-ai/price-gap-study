@@ -1,0 +1,62 @@
+{
+  "gapfill/__init__.py": {
+    "origin": "price_gap_study/gapfill/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scientific_code_changed": false
+  },
+  "gapfill/impute.py": {
+    "origin": "price_gap_study/gapfill/impute.py",
+    "original_sha256": "1fbd79bf681fe0a3631ebdf2e9840c9560b40093b0432bcdc7aada83cdce3537",
+    "scientific_code_changed": false
+  },
+  "gapfill/stats.py": {
+    "origin": "price_gap_study/gapfill/stats.py",
+    "original_sha256": "f2f365ae49f16180ae392c507dd7678f3b6a744a2d24fe5167593c42eae9e070",
+    "scientific_code_changed": false
+  },
+  "gapfill/study.py": {
+    "origin": "price_gap_study/gapfill/study.py",
+    "original_sha256": "94cae0781e723b976926ba98bdd296125a339bdcabaec46319759834be440bb1",
+    "scientific_code_changed": false
+  },
+  "gapfill/controls.py": {
+    "origin": "price_gap_study/gapfill/controls.py",
+    "original_sha256": "763261455c7747aff4fa296bc64b8f81eb0ba0f12e6dc82d64f08f005a66f753",
+    "scientific_code_changed": false
+  },
+  "gapfill/calendar.py": {
+    "origin": "price_gap_study/gapfill/calendar.py",
+    "original_sha256": "0d29b1afa2d7876dae5fc38faada103b34487fcdc341552568fde400525d3436",
+    "scientific_code_changed": false
+  },
+  "gapfill/inference.py": {
+    "origin": "price_gap_study/gapfill/inference.py",
+    "original_sha256": "450671907c8110cab36d6923d8f24c5174ec8c0493cdf33243113d7c64046160",
+    "scientific_code_changed": false
+  },
+  "gapfill/revision_controls.py": {
+    "origin": "price_gap_study/gapfill/revision_controls.py",
+    "original_sha256": "5b9f3251b428288b77a09ef70157bce665db36b87ad96153b6e8ea935dc89f37",
+    "scientific_code_changed": false
+  },
+  "gapfill/north_east.py": {
+    "origin": "price_gap_study/gapfill/north_east.py",
+    "original_sha256": "d071b8a5e4593fe105312e434048bef6fdb3eb389e2661eabfc9aec9d6c32f6b",
+    "scientific_code_changed": false
+  },
+  "gapfill/loaders/data.py": {
+    "origin": "crop_price_forecasting/cropcast/data.py",
+    "original_sha256": "adaca4c4685bc47f94aece0454a345dd36fd6bc57b39fd4be423b203db0ce2f6",
+    "adaptation": "data path configuration only; no method changes"
+  },
+  "gapfill/loaders/monthly.py": {
+    "origin": "crop_price_forecasting/cropcast/monthly.py",
+    "original_sha256": "fc134393d469cb5f6d00f2f1131a86f466dec84d4b8a26d4052226f3dc4b11e9",
+    "adaptation": "unchanged author-owned module"
+  },
+  "gapfill/loaders/agmarknet.py": {
+    "origin": "crop_price_forecasting/cropcast/agmarknet.py",
+    "original_sha256": "34679655aec999ce8cc0430816ad90deccb826968bc874180073e70da9d55655",
+    "adaptation": "unchanged author-owned module"
+  }
+}

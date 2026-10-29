@@ -1,0 +1,847 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{59}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter does
+%%% not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+\makeatletter
+\@ifundefined{NAT@parse@date}{}{\let\NAT@parse@date@orig\NAT@parse@date}
+\@ifundefined{NAT@parse@date}{}{\def\NAT@parse@date#1#2#3#4#5#6@@{\NAT@parse@date@orig#1#2#3#4#5#6@@\def\NAT@tempyear{0000}\def\NAT@tempexlab{{?}}\ifx\NAT@year\NAT@tempyear\ifx\NAT@exlab\NAT@tempexlab\def\NAT@date{[n.\,d.]}\else\edef\NAT@date{[n.\,d.]\NAT@exlab}\fi\fi}}
+\makeatother
+
+\bibitem[Andr{\'e}e(2021)]%
+        {andree2021}
+\bibfield{author}{\bibinfo{person}{Bo~Pieter~Johannes Andr{\'e}e}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Estimating Food Price Inflation from
+  Partial Surveys}}.
+\newblock \bibinfo{type}{Policy Research Working Paper} 9886.
+  \bibinfo{institution}{World Bank}.
+\newblock
+\href{https://doi.org/10.1596/1813-9450-9886}{doi:\nolinkurl{10.1596/1813-9450-9886}}
+
+
+\bibitem[Bai and Ng(2002)]%
+        {bai2002}
+\bibfield{author}{\bibinfo{person}{Jushan Bai} {and} \bibinfo{person}{Serena
+  Ng}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Determining the Number of Factors in Approximate
+  Factor Models}.
+\newblock \bibinfo{journal}{\emph{Econometrica}} \bibinfo{volume}{70},
+  \bibinfo{number}{1} (\bibinfo{year}{2002}), \bibinfo{pages}{191--221}.
+\newblock
+\href{https://doi.org/10.1111/1468-0262.00273}{doi:\nolinkurl{10.1111/1468-0262.00273}}
+
+
+\bibitem[Ba{\'n}bura and Modugno(2014)]%
+        {banbura2014}
+\bibfield{author}{\bibinfo{person}{Marta Ba{\'n}bura} {and}
+  \bibinfo{person}{Michele Modugno}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Maximum Likelihood Estimation of Factor Models on
+  Datasets with Arbitrary Pattern of Missing Data}.
+\newblock \bibinfo{journal}{\emph{Journal of Applied Econometrics}}
+  \bibinfo{volume}{29}, \bibinfo{number}{1} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{133--160}.
+\newblock
+\href{https://doi.org/10.1002/jae.2306}{doi:\nolinkurl{10.1002/jae.2306}}
+
+
+\bibitem[Bansal et~al\mbox{.}(2021)]%
+        {bansal2021}
+\bibfield{author}{\bibinfo{person}{Parikshit Bansal},
+  \bibinfo{person}{Prathamesh Deshpande}, {and} \bibinfo{person}{Sunita
+  Sarawagi}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Missing Value Imputation on Multidimensional Time
+  Series}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the VLDB Endowment}}
+  \bibinfo{volume}{14}, \bibinfo{number}{11} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{2533--2545}.
+\newblock
+\href{https://doi.org/10.14778/3476249.3476300}{doi:\nolinkurl{10.14778/3476249.3476300}}
+
+
+\bibitem[Barber et~al\mbox{.}(2023)]%
+        {barber2023}
+\bibfield{author}{\bibinfo{person}{Rina~Foygel Barber},
+  \bibinfo{person}{Emmanuel~J. Cand{\`e}s}, \bibinfo{person}{Aaditya Ramdas},
+  {and} \bibinfo{person}{Ryan~J. Tibshirani}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Conformal Prediction Beyond Exchangeability}.
+\newblock \bibinfo{journal}{\emph{The Annals of Statistics}}
+  \bibinfo{volume}{51}, \bibinfo{number}{2} (\bibinfo{year}{2023}),
+  \bibinfo{pages}{816--845}.
+\newblock
+\href{https://doi.org/10.1214/23-AOS2276}{doi:\nolinkurl{10.1214/23-AOS2276}}
+
+
+\bibitem[Barrett and Li(2002)]%
+        {barrett2002}
+\bibfield{author}{\bibinfo{person}{Christopher~B. Barrett} {and}
+  \bibinfo{person}{Jau~Rong Li}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Distinguishing between Equilibrium and Integration
+  in Spatial Price Analysis}.
+\newblock \bibinfo{journal}{\emph{American Journal of Agricultural Economics}}
+  \bibinfo{volume}{84}, \bibinfo{number}{2} (\bibinfo{year}{2002}),
+  \bibinfo{pages}{292--307}.
+\newblock
+\href{https://doi.org/10.1111/1467-8276.00298}{doi:\nolinkurl{10.1111/1467-8276.00298}}
+
+
+\bibitem[Bergmeir et~al\mbox{.}(2018)]%
+        {bergmeir2018}
+\bibfield{author}{\bibinfo{person}{Christoph Bergmeir}, \bibinfo{person}{Rob~J.
+  Hyndman}, {and} \bibinfo{person}{Bonsoo Koo}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{A Note on the Validity of Cross-Validation for
+  Evaluating Autoregressive Time Series Prediction}.
+\newblock \bibinfo{journal}{\emph{Computational Statistics \& Data Analysis}}
+  \bibinfo{volume}{120} (\bibinfo{year}{2018}), \bibinfo{pages}{70--83}.
+\newblock
+\href{https://doi.org/10.1016/j.csda.2017.11.003}{doi:\nolinkurl{10.1016/j.csda.2017.11.003}}
+
+
+\bibitem[Bhardwaj et~al\mbox{.}(2023)]%
+        {bhardwaj2023}
+\bibfield{author}{\bibinfo{person}{Mayank~Ratan Bhardwaj},
+  \bibinfo{person}{Jaydeep Pawar}, \bibinfo{person}{Abhijnya Bhat},
+  \bibinfo{person}{Deepanshu}, \bibinfo{person}{Inavamsi Enaganti},
+  \bibinfo{person}{Kartik Sagar}, {and} \bibinfo{person}{Y. Narahari}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{An Innovative Deep Learning Based Approach for
+  Accurate Agricultural Crop Price Prediction}. In
+  \bibinfo{booktitle}{\emph{2023 IEEE 19th International Conference on
+  Automation Science and Engineering (CASE)}}. \bibinfo{publisher}{IEEE},
+  \bibinfo{pages}{1--7}.
+\newblock
+\href{https://doi.org/10.1109/CASE56687.2023.10260494}{doi:\nolinkurl{10.1109/CASE56687.2023.10260494}}
+
+
+\bibitem[Breiman(1996)]%
+        {breiman1996}
+\bibfield{author}{\bibinfo{person}{Leo Breiman}.}
+  \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{Stacked Regressions}.
+\newblock \bibinfo{journal}{\emph{Machine Learning}} \bibinfo{volume}{24},
+  \bibinfo{number}{1} (\bibinfo{year}{1996}), \bibinfo{pages}{49--64}.
+\newblock
+\href{https://doi.org/10.1007/BF00117832}{doi:\nolinkurl{10.1007/BF00117832}}
+
+
+\bibitem[Cameron et~al\mbox{.}(2011)]%
+        {cameron2011}
+\bibfield{author}{\bibinfo{person}{A.~Colin Cameron}, \bibinfo{person}{Jonah~B.
+  Gelbach}, {and} \bibinfo{person}{Douglas~L. Miller}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Robust Inference With Multiway Clustering}.
+\newblock \bibinfo{journal}{\emph{Journal of Business \& Economic Statistics}}
+  \bibinfo{volume}{29}, \bibinfo{number}{2} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{238--249}.
+\newblock
+\href{https://doi.org/10.1198/jbes.2010.07136}{doi:\nolinkurl{10.1198/jbes.2010.07136}}
+
+
+\bibitem[Cao et~al\mbox{.}(2018)]%
+        {cao2018}
+\bibfield{author}{\bibinfo{person}{Wei Cao}, \bibinfo{person}{Dong Wang},
+  \bibinfo{person}{Jian Li}, \bibinfo{person}{Hao Zhou}, \bibinfo{person}{Lei
+  Li}, {and} \bibinfo{person}{Yitan Li}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{BRITS}: Bidirectional Recurrent Imputation for
+  Time Series}. In \bibinfo{booktitle}{\emph{Advances in Neural Information
+  Processing Systems}}, Vol.~\bibinfo{volume}{31}. \bibinfo{publisher}{Curran
+  Associates, Inc.}
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.neurips.cc/paper_files/paper/2018/hash/734e6bfcd358e25ac1db0a4241b95651-Abstract.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Che et~al\mbox{.}(2018)]%
+        {che2018}
+\bibfield{author}{\bibinfo{person}{Zhengping Che}, \bibinfo{person}{Sanjay
+  Purushotham}, \bibinfo{person}{Kyunghyun Cho}, \bibinfo{person}{David
+  Sontag}, {and} \bibinfo{person}{Yan Liu}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Recurrent Neural Networks for Multivariate Time
+  Series with Missing Values}.
+\newblock \bibinfo{journal}{\emph{Scientific Reports}} \bibinfo{volume}{8},
+  \bibinfo{number}{1} (\bibinfo{year}{2018}), \bibinfo{pages}{6085}.
+\newblock
+\href{https://doi.org/10.1038/s41598-018-24271-9}{doi:\nolinkurl{10.1038/s41598-018-24271-9}}
+
+
+\bibitem[Chow and Lin(1971)]%
+        {chow1971}
+\bibfield{author}{\bibinfo{person}{Gregory~C. Chow} {and}
+  \bibinfo{person}{An-loh Lin}.} \bibinfo{year}{1971}\natexlab{}.
+\newblock \showarticletitle{Best Linear Unbiased Interpolation, Distribution,
+  and Extrapolation of Time Series by Related Series}.
+\newblock \bibinfo{journal}{\emph{The Review of Economics and Statistics}}
+  \bibinfo{volume}{53}, \bibinfo{number}{4} (\bibinfo{year}{1971}),
+  \bibinfo{pages}{372--375}.
+\newblock
+\href{https://doi.org/10.2307/1928739}{doi:\nolinkurl{10.2307/1928739}}
+
+
+\bibitem[Cini et~al\mbox{.}(2022)]%
+        {cini2022}
+\bibfield{author}{\bibinfo{person}{Andrea Cini}, \bibinfo{person}{Ivan
+  Marisca}, {and} \bibinfo{person}{Cesare Alippi}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Filling the {G\_ap\_s}: Multivariate Time Series
+  Imputation by Graph Neural Networks}. In
+  \bibinfo{booktitle}{\emph{International Conference on Learning
+  Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=kOu3-S3wJ7}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Dem{\v{s}}ar(2006)]%
+        {demsar2006}
+\bibfield{author}{\bibinfo{person}{Janez Dem{\v{s}}ar}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Statistical Comparisons of Classifiers over
+  Multiple Data Sets}.
+\newblock \bibinfo{journal}{\emph{Journal of Machine Learning Research}}
+  \bibinfo{volume}{7}, \bibinfo{number}{1} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{1--30}.
+\newblock
+
+
+\bibitem[{Directorate of Marketing and Inspection, Ministry of Agriculture and
+  Farmers Welfare, Government of India}(2026)]%
+        {agmarknet}
+\bibfield{author}{\bibinfo{person}{{Directorate of Marketing and Inspection,
+  Ministry of Agriculture and Farmers Welfare, Government of India}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{AGMARKNET}: Agricultural Marketing Information
+  Network}.
+\newblock \bibinfo{howpublished}{\url{https://agmarknet.gov.in}}.
+\newblock
+\urldef\tempurl%
+\url{https://agmarknet.gov.in}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Local daily and monthly API responses retrieved October 2026}.
+
+
+\bibitem[Doz et~al\mbox{.}(2012)]%
+        {doz2012}
+\bibfield{author}{\bibinfo{person}{Catherine Doz}, \bibinfo{person}{Domenico
+  Giannone}, {and} \bibinfo{person}{Lucrezia Reichlin}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{A Quasi--Maximum Likelihood Approach for Large,
+  Approximate Dynamic Factor Models}.
+\newblock \bibinfo{journal}{\emph{Review of Economics and Statistics}}
+  \bibinfo{volume}{94}, \bibinfo{number}{4} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{1014--1024}.
+\newblock
+\href{https://doi.org/10.1162/REST_a_00225}{doi:\nolinkurl{10.1162/REST_a_00225}}
+
+
+\bibitem[Du(2023)]%
+        {du2023pypots}
+\bibfield{author}{\bibinfo{person}{Wenjie Du}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{PyPOTS}: A Python Toolbox for Data Mining on
+  Partially-Observed Time Series}.
+\newblock \bibinfo{howpublished}{9th SIGKDD International Workshop on Mining
+  and Learning from Time Series (MiLeTS)}.
+\newblock
+\urldef\tempurl%
+\url{https://kdd-milets.github.io/milets2023/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accepted workshop paper; non-archival, without proceedings}.
+
+
+\bibitem[Du et~al\mbox{.}(2023)]%
+        {du2023saits}
+\bibfield{author}{\bibinfo{person}{Wenjie Du}, \bibinfo{person}{David
+  C{\^o}t{\'e}}, {and} \bibinfo{person}{Yan Liu}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{SAITS}: Self-attention-based imputation for time
+  series}.
+\newblock \bibinfo{journal}{\emph{Expert Systems with Applications}}
+  \bibinfo{volume}{219} (\bibinfo{year}{2023}), \bibinfo{pages}{119619}.
+\newblock
+\href{https://doi.org/10.1016/j.eswa.2023.119619}{doi:\nolinkurl{10.1016/j.eswa.2023.119619}}
+
+
+\bibitem[Durbin and Koopman(2012)]%
+        {durbin2012}
+\bibfield{author}{\bibinfo{person}{James Durbin} {and}
+  \bibinfo{person}{Siem~Jan Koopman}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Time Series Analysis by State Space
+  Methods} (\bibinfo{edition}{2} ed.)}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+\href{https://doi.org/10.1093/acprof:oso/9780199641178.001.0001}{doi:\nolinkurl{10.1093/acprof:oso/9780199641178.001.0001}}
+
+
+\bibitem[Fackler and Goodwin(2001)]%
+        {fackler2001}
+\bibfield{author}{\bibinfo{person}{Paul~L. Fackler} {and}
+  \bibinfo{person}{Barry~K. Goodwin}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Spatial Price Analysis}.
+\newblock In \bibinfo{booktitle}{\emph{Handbook of Agricultural Economics}}.
+  Vol.~\bibinfo{volume}{1}. \bibinfo{publisher}{Elsevier},
+  \bibinfo{pages}{971--1024}.
+\newblock
+\href{https://doi.org/10.1016/S1574-0072(01)10025-3}{doi:\nolinkurl{10.1016/S1574-0072(01)10025-3}}
+
+
+\bibitem[Fortuin et~al\mbox{.}(2020)]%
+        {fortuin2020}
+\bibfield{author}{\bibinfo{person}{Vincent Fortuin}, \bibinfo{person}{Dmitry
+  Baranchuk}, \bibinfo{person}{Gunnar R{\"a}tsch}, {and}
+  \bibinfo{person}{Stephan Mandt}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{GP-VAE}: Deep Probabilistic Time Series
+  Imputation}. In \bibinfo{booktitle}{\emph{Proceedings of the Twenty Third
+  International Conference on Artificial Intelligence and Statistics}}
+  \emph{(\bibinfo{series}{Proceedings of Machine Learning Research},
+  Vol.~\bibinfo{volume}{108})}. \bibinfo{publisher}{PMLR},
+  \bibinfo{pages}{1651--1661}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v108/fortuin20a.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Ghosh(2011)]%
+        {ghosh2011}
+\bibfield{author}{\bibinfo{person}{Madhusudan Ghosh}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Agricultural Policy Reforms and Spatial Integration
+  of Food Grain Markets in {India}}.
+\newblock \bibinfo{journal}{\emph{Journal of Economic Development}}
+  \bibinfo{volume}{36}, \bibinfo{number}{2} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{15--37}.
+\newblock
+\href{https://doi.org/10.35866/caujed.2011.36.2.002}{doi:\nolinkurl{10.35866/caujed.2011.36.2.002}}
+
+
+\bibitem[Giannone et~al\mbox{.}(2008)]%
+        {giannone2008}
+\bibfield{author}{\bibinfo{person}{Domenico Giannone},
+  \bibinfo{person}{Lucrezia Reichlin}, {and} \bibinfo{person}{David Small}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Nowcasting: The Real-Time Informational Content of
+  Macroeconomic Data}.
+\newblock \bibinfo{journal}{\emph{Journal of Monetary Economics}}
+  \bibinfo{volume}{55}, \bibinfo{number}{4} (\bibinfo{year}{2008}),
+  \bibinfo{pages}{665--676}.
+\newblock
+\href{https://doi.org/10.1016/j.jmoneco.2008.05.010}{doi:\nolinkurl{10.1016/j.jmoneco.2008.05.010}}
+
+
+\bibitem[Gibbs and Cand{\`e}s(2021)]%
+        {gibbs2021}
+\bibfield{author}{\bibinfo{person}{Isaac Gibbs} {and} \bibinfo{person}{Emmanuel
+  Cand{\`e}s}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Adaptive Conformal Inference Under Distribution
+  Shift}. In \bibinfo{booktitle}{\emph{Advances in Neural Information
+  Processing Systems}}, Vol.~\bibinfo{volume}{34}. \bibinfo{publisher}{Curran
+  Associates, Inc.}, \bibinfo{pages}{1660--1672}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.neurips.cc/paper_files/paper/2021/hash/0d441de75945e5acbc865406fc9a2559-Abstract.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Goyal(2010)]%
+        {goyal2010}
+\bibfield{author}{\bibinfo{person}{Aparajita Goyal}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Information, Direct Access to Farmers, and Rural
+  Market Performance in Central India}.
+\newblock \bibinfo{journal}{\emph{American Economic Journal: Applied
+  Economics}} \bibinfo{volume}{2}, \bibinfo{number}{3} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{22--45}.
+\newblock
+\href{https://doi.org/10.1257/app.2.3.22}{doi:\nolinkurl{10.1257/app.2.3.22}}
+
+
+\bibitem[Harvey and Pierse(1984)]%
+        {harvey1984}
+\bibfield{author}{\bibinfo{person}{Andrew~C. Harvey} {and}
+  \bibinfo{person}{Richard~G. Pierse}.} \bibinfo{year}{1984}\natexlab{}.
+\newblock \showarticletitle{Estimating Missing Observations in Economic Time
+  Series}.
+\newblock \bibinfo{journal}{\emph{J. Amer. Statist. Assoc.}}
+  \bibinfo{volume}{79}, \bibinfo{number}{385} (\bibinfo{year}{1984}),
+  \bibinfo{pages}{125--131}.
+\newblock
+\href{https://doi.org/10.1080/01621459.1984.10477074}{doi:\nolinkurl{10.1080/01621459.1984.10477074}}
+
+
+\bibitem[Holm(1979)]%
+        {holm1979}
+\bibfield{author}{\bibinfo{person}{Sture Holm}.}
+  \bibinfo{year}{1979}\natexlab{}.
+\newblock \showarticletitle{A Simple Sequentially Rejective Multiple Test
+  Procedure}.
+\newblock \bibinfo{journal}{\emph{Scandinavian Journal of Statistics}}
+  \bibinfo{volume}{6}, \bibinfo{number}{2} (\bibinfo{year}{1979}),
+  \bibinfo{pages}{65--70}.
+\newblock
+
+
+\bibitem[Hyndman and Koehler(2006)]%
+        {hyndman2006}
+\bibfield{author}{\bibinfo{person}{Rob~J. Hyndman} {and}
+  \bibinfo{person}{Anne~B. Koehler}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Another Look at Measures of Forecast Accuracy}.
+\newblock \bibinfo{journal}{\emph{International Journal of Forecasting}}
+  \bibinfo{volume}{22}, \bibinfo{number}{4} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{679--688}.
+\newblock
+\href{https://doi.org/10.1016/j.ijforecast.2006.03.001}{doi:\nolinkurl{10.1016/j.ijforecast.2006.03.001}}
+
+
+\bibitem[Jha and Sinha(2014)]%
+        {jha2014}
+\bibfield{author}{\bibinfo{person}{Girish~Kumar Jha} {and}
+  \bibinfo{person}{Kanchan Sinha}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Time-delay neural networks for time series
+  prediction: an application to the monthly wholesale price of oilseeds in
+  {India}}.
+\newblock \bibinfo{journal}{\emph{Neural Computing and Applications}}
+  \bibinfo{volume}{24}, \bibinfo{number}{3--4} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{563--571}.
+\newblock
+\href{https://doi.org/10.1007/s00521-012-1264-z}{doi:\nolinkurl{10.1007/s00521-012-1264-z}}
+
+
+\bibitem[Jones(1980)]%
+        {jones1980}
+\bibfield{author}{\bibinfo{person}{Richard~H. Jones}.}
+  \bibinfo{year}{1980}\natexlab{}.
+\newblock \showarticletitle{Maximum Likelihood Fitting of {ARMA} Models to Time
+  Series With Missing Observations}.
+\newblock \bibinfo{journal}{\emph{Technometrics}} \bibinfo{volume}{22},
+  \bibinfo{number}{3} (\bibinfo{year}{1980}), \bibinfo{pages}{389--395}.
+\newblock
+\href{https://doi.org/10.1080/00401706.1980.10486171}{doi:\nolinkurl{10.1080/00401706.1980.10486171}}
+
+
+\bibitem[Kalman(1960)]%
+        {kalman1960}
+\bibfield{author}{\bibinfo{person}{Rudolph~E. Kalman}.}
+  \bibinfo{year}{1960}\natexlab{}.
+\newblock \showarticletitle{A New Approach to Linear Filtering and Prediction
+  Problems}.
+\newblock \bibinfo{journal}{\emph{Journal of Basic Engineering}}
+  \bibinfo{volume}{82}, \bibinfo{number}{1} (\bibinfo{year}{1960}),
+  \bibinfo{pages}{35--45}.
+\newblock
+\href{https://doi.org/10.1115/1.3662552}{doi:\nolinkurl{10.1115/1.3662552}}
+
+
+\bibitem[Kapoor and Narayanan(2023)]%
+        {kapoor2023}
+\bibfield{author}{\bibinfo{person}{Sayash Kapoor} {and} \bibinfo{person}{Arvind
+  Narayanan}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Leakage and the Reproducibility Crisis in
+  Machine-Learning-Based Science}.
+\newblock \bibinfo{journal}{\emph{Patterns}} \bibinfo{volume}{4},
+  \bibinfo{number}{9} (\bibinfo{year}{2023}), \bibinfo{pages}{100804}.
+\newblock
+\href{https://doi.org/10.1016/j.patter.2023.100804}{doi:\nolinkurl{10.1016/j.patter.2023.100804}}
+
+
+\bibitem[Kaufman et~al\mbox{.}(2012)]%
+        {kaufman2012}
+\bibfield{author}{\bibinfo{person}{Shachar Kaufman}, \bibinfo{person}{Saharon
+  Rosset}, \bibinfo{person}{Claudia Perlich}, {and} \bibinfo{person}{Ori
+  Stitelman}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Leakage in Data Mining: Formulation, Detection, and
+  Avoidance}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Knowledge Discovery from
+  Data}} \bibinfo{volume}{6}, \bibinfo{number}{4}, Article
+  \bibinfo{articleno}{15} (\bibinfo{year}{2012}), \bibinfo{numpages}{21}~pages.
+\newblock
+\href{https://doi.org/10.1145/2382577.2382579}{doi:\nolinkurl{10.1145/2382577.2382579}}
+
+
+\bibitem[Khayati et~al\mbox{.}(2020)]%
+        {khayati2020}
+\bibfield{author}{\bibinfo{person}{Mourad Khayati}, \bibinfo{person}{Alberto
+  Lerner}, \bibinfo{person}{Zakhar Tymchenko}, {and} \bibinfo{person}{Philippe
+  Cudr{\'e}-Mauroux}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Mind the Gap: An Experimental Evaluation of
+  Imputation of Missing Values Techniques in Time Series}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the VLDB Endowment}}
+  \bibinfo{volume}{13}, \bibinfo{number}{5} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{768--782}.
+\newblock
+\href{https://doi.org/10.14778/3377369.3377383}{doi:\nolinkurl{10.14778/3377369.3377383}}
+
+
+\bibitem[Ladhar et~al\mbox{.}(2023)]%
+        {ladhar2023}
+\bibfield{author}{\bibinfo{person}{Ronak Ladhar}, \bibinfo{person}{Sourav
+  Sharma}, \bibinfo{person}{Srikant Tangirala}, \bibinfo{person}{Nishant
+  Gupta}, \bibinfo{person}{Abdul Azeem}, \bibinfo{person}{Arjav Jain},
+  \bibinfo{person}{Bhuvan~Chand Katakam}, \bibinfo{person}{Aditya Bommakanti},
+  \bibinfo{person}{C. Sankaraiah}, \bibinfo{person}{Hari~Prasad Piridi},
+  \bibinfo{person}{Kaushalendra Yadav}, \bibinfo{person}{Kumra Vittalrao},
+  \bibinfo{person}{Matiur Rahman}, \bibinfo{person}{Rashul Chutani},
+  \bibinfo{person}{Rishi Shah}, \bibinfo{person}{Rohan Katepallewar},
+  \bibinfo{person}{Dipanjan Chakraborty}, {and} \bibinfo{person}{Aaditeshwar
+  Seth}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{AI}-based Market Intelligence Systems for Farmer
+  Collectives: A Case Study from {India}}.
+\newblock \bibinfo{journal}{\emph{ACM Journal on Computing and Sustainable
+  Societies}} \bibinfo{volume}{1}, \bibinfo{number}{1}, Article
+  \bibinfo{articleno}{6} (\bibinfo{year}{2023}), \bibinfo{numpages}{32}~pages.
+\newblock
+\href{https://doi.org/10.1145/3609262}{doi:\nolinkurl{10.1145/3609262}}
+
+
+\bibitem[Lei et~al\mbox{.}(2018)]%
+        {lei2018}
+\bibfield{author}{\bibinfo{person}{Jing Lei}, \bibinfo{person}{Max G'Sell},
+  \bibinfo{person}{Alessandro Rinaldo}, \bibinfo{person}{Ryan~J. Tibshirani},
+  {and} \bibinfo{person}{Larry Wasserman}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Distribution-Free Predictive Inference for
+  Regression}.
+\newblock \bibinfo{journal}{\emph{J. Amer. Statist. Assoc.}}
+  \bibinfo{volume}{113}, \bibinfo{number}{523} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{1094--1111}.
+\newblock
+\href{https://doi.org/10.1080/01621459.2017.1307116}{doi:\nolinkurl{10.1080/01621459.2017.1307116}}
+
+
+\bibitem[Little and Rubin(2019)]%
+        {little2019}
+\bibfield{author}{\bibinfo{person}{Roderick J.~A. Little} {and}
+  \bibinfo{person}{Donald~B. Rubin}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Statistical Analysis with Missing Data}
+  (\bibinfo{edition}{3} ed.)}.
+\newblock \bibinfo{publisher}{Wiley}.
+\newblock
+\href{https://doi.org/10.1002/9781119482260}{doi:\nolinkurl{10.1002/9781119482260}}
+
+
+\bibitem[Ma et~al\mbox{.}(2019)]%
+        {ma2019}
+\bibfield{author}{\bibinfo{person}{Wei Ma}, \bibinfo{person}{Kendall Nowocin},
+  \bibinfo{person}{Niraj Marathe}, {and} \bibinfo{person}{George~H. Chen}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{An Interpretable Produce Price Forecasting System
+  for Small and Marginal Farmers in {India} using Collaborative Filtering and
+  Adaptive Nearest Neighbors}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  Tenth International Conference on Information and Communication Technologies
+  and Development (ICTD)}}. \bibinfo{publisher}{ACM}, \bibinfo{address}{New
+  York, NY, USA}, \bibinfo{pages}{1--11}.
+\newblock
+\href{https://doi.org/10.1145/3287098.3287100}{doi:\nolinkurl{10.1145/3287098.3287100}}
+
+
+\bibitem[Mariano and Murasawa(2003)]%
+        {mariano2003}
+\bibfield{author}{\bibinfo{person}{Roberto~S. Mariano} {and}
+  \bibinfo{person}{Yasutomo Murasawa}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{A New Coincident Index of Business Cycles Based on
+  Monthly and Quarterly Series}.
+\newblock \bibinfo{journal}{\emph{Journal of Applied Econometrics}}
+  \bibinfo{volume}{18}, \bibinfo{number}{4} (\bibinfo{year}{2003}),
+  \bibinfo{pages}{427--443}.
+\newblock
+\href{https://doi.org/10.1002/jae.695}{doi:\nolinkurl{10.1002/jae.695}}
+
+
+\bibitem[Marisca et~al\mbox{.}(2022)]%
+        {marisca2022}
+\bibfield{author}{\bibinfo{person}{Ivan Marisca}, \bibinfo{person}{Andrea
+  Cini}, {and} \bibinfo{person}{Cesare Alippi}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Learning to Reconstruct Missing Data from
+  Spatiotemporal Graphs with Sparse Observations}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, Vol.~\bibinfo{volume}{35}. \bibinfo{publisher}{Curran Associates,
+  Inc.}, \bibinfo{pages}{32069--32082}.
+\newblock
+\href{https://doi.org/10.52202/068431-2324}{doi:\nolinkurl{10.52202/068431-2324}}
+
+
+\bibitem[Mazumder et~al\mbox{.}(2010)]%
+        {mazumder2010}
+\bibfield{author}{\bibinfo{person}{Rahul Mazumder}, \bibinfo{person}{Trevor
+  Hastie}, {and} \bibinfo{person}{Robert Tibshirani}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Spectral Regularization Algorithms for Learning
+  Large Incomplete Matrices}.
+\newblock \bibinfo{journal}{\emph{Journal of Machine Learning Research}}
+  \bibinfo{volume}{11} (\bibinfo{year}{2010}), \bibinfo{pages}{2287--2322}.
+\newblock
+
+
+\bibitem[Moritz and Bartz-Beielstein(2017)]%
+        {moritz2017}
+\bibfield{author}{\bibinfo{person}{Steffen Moritz} {and}
+  \bibinfo{person}{Thomas Bartz-Beielstein}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{imputeTS}: Time Series Missing Value Imputation in
+  {R}}.
+\newblock \bibinfo{journal}{\emph{The R Journal}} \bibinfo{volume}{9},
+  \bibinfo{number}{1} (\bibinfo{year}{2017}), \bibinfo{pages}{207--218}.
+\newblock
+\href{https://doi.org/10.32614/RJ-2017-009}{doi:\nolinkurl{10.32614/RJ-2017-009}}
+
+
+\bibitem[Ng and Scanlan(2024)]%
+        {ng2024}
+\bibfield{author}{\bibinfo{person}{Serena Ng} {and} \bibinfo{person}{Susannah
+  Scanlan}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Constructing High Frequency Economic Indicators by
+  Imputation}.
+\newblock \bibinfo{journal}{\emph{The Econometrics Journal}}
+  \bibinfo{volume}{27}, \bibinfo{number}{1} (\bibinfo{year}{2024}),
+  \bibinfo{pages}{C1--C30}.
+\newblock
+\href{https://doi.org/10.1093/ectj/utad024}{doi:\nolinkurl{10.1093/ectj/utad024}}
+
+
+\bibitem[Nie et~al\mbox{.}(2024)]%
+        {nie2024}
+\bibfield{author}{\bibinfo{person}{Tong Nie}, \bibinfo{person}{Guoyang Qin},
+  \bibinfo{person}{Wei Ma}, \bibinfo{person}{Yuewen Mei}, {and}
+  \bibinfo{person}{Jian Sun}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{ImputeFormer}: Low Rankness-Induced Transformers
+  for Generalizable Spatiotemporal Imputation}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 30th ACM SIGKDD Conference on
+  Knowledge Discovery and Data Mining}}. \bibinfo{publisher}{ACM},
+  \bibinfo{pages}{2260--2271}.
+\newblock
+\href{https://doi.org/10.1145/3637528.3671751}{doi:\nolinkurl{10.1145/3637528.3671751}}
+
+
+\bibitem[Owen(2007)]%
+        {owen2007}
+\bibfield{author}{\bibinfo{person}{Art~B. Owen}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{The Pigeonhole Bootstrap}.
+\newblock \bibinfo{journal}{\emph{The Annals of Applied Statistics}}
+  \bibinfo{volume}{1}, \bibinfo{number}{2} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{386--411}.
+\newblock
+\href{https://doi.org/10.1214/07-AOAS122}{doi:\nolinkurl{10.1214/07-AOAS122}}
+
+
+\bibitem[Rauch et~al\mbox{.}(1965)]%
+        {rauch1965}
+\bibfield{author}{\bibinfo{person}{H.~E. Rauch}, \bibinfo{person}{F. Tung},
+  {and} \bibinfo{person}{C.~T. Striebel}.} \bibinfo{year}{1965}\natexlab{}.
+\newblock \showarticletitle{Maximum Likelihood Estimates of Linear Dynamic
+  Systems}.
+\newblock \bibinfo{journal}{\emph{AIAA Journal}} \bibinfo{volume}{3},
+  \bibinfo{number}{8} (\bibinfo{year}{1965}), \bibinfo{pages}{1445--1450}.
+\newblock
+\href{https://doi.org/10.2514/3.3166}{doi:\nolinkurl{10.2514/3.3166}}
+
+
+\bibitem[Roberts et~al\mbox{.}(2017)]%
+        {roberts2017}
+\bibfield{author}{\bibinfo{person}{David~R. Roberts}, \bibinfo{person}{Volker
+  Bahn}, \bibinfo{person}{Simone Ciuti}, \bibinfo{person}{Mark~S. Boyce},
+  \bibinfo{person}{Jane Elith}, \bibinfo{person}{Gurutzeta Guillera-Arroita},
+  \bibinfo{person}{Severin Hauenstein}, \bibinfo{person}{Jos{\'e}~J.
+  Lahoz-Monfort}, \bibinfo{person}{Boris Schr{\"o}der},
+  \bibinfo{person}{Wilfried Thuiller}, \bibinfo{person}{David~I. Warton},
+  \bibinfo{person}{Brendan~A. Wintle}, \bibinfo{person}{Florian Hartig}, {and}
+  \bibinfo{person}{Carsten~F. Dormann}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Cross-Validation Strategies for Data with Temporal,
+  Spatial, Hierarchical, or Phylogenetic Structure}.
+\newblock \bibinfo{journal}{\emph{Ecography}} \bibinfo{volume}{40},
+  \bibinfo{number}{8} (\bibinfo{year}{2017}), \bibinfo{pages}{913--929}.
+\newblock
+\href{https://doi.org/10.1111/ecog.02881}{doi:\nolinkurl{10.1111/ecog.02881}}
+
+
+\bibitem[Rubin(1976)]%
+        {rubin1976}
+\bibfield{author}{\bibinfo{person}{Donald~B. Rubin}.}
+  \bibinfo{year}{1976}\natexlab{}.
+\newblock \showarticletitle{Inference and Missing Data}.
+\newblock \bibinfo{journal}{\emph{Biometrika}} \bibinfo{volume}{63},
+  \bibinfo{number}{3} (\bibinfo{year}{1976}), \bibinfo{pages}{581--592}.
+\newblock
+\href{https://doi.org/10.1093/biomet/63.3.581}{doi:\nolinkurl{10.1093/biomet/63.3.581}}
+
+
+\bibitem[Schafer and Graham(2002)]%
+        {schafer2002}
+\bibfield{author}{\bibinfo{person}{Joseph~L. Schafer} {and}
+  \bibinfo{person}{John~W. Graham}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Missing Data: Our View of the State of the Art}.
+\newblock \bibinfo{journal}{\emph{Psychological Methods}} \bibinfo{volume}{7},
+  \bibinfo{number}{2} (\bibinfo{year}{2002}), \bibinfo{pages}{147--177}.
+\newblock
+\href{https://doi.org/10.1037/1082-989X.7.2.147}{doi:\nolinkurl{10.1037/1082-989X.7.2.147}}
+
+
+\bibitem[Stekhoven and B{\"u}hlmann(2012)]%
+        {stekhoven2012}
+\bibfield{author}{\bibinfo{person}{Daniel~J. Stekhoven} {and}
+  \bibinfo{person}{Peter B{\"u}hlmann}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{{MissForest}---non-parametric missing value
+  imputation for mixed-type data}.
+\newblock \bibinfo{journal}{\emph{Bioinformatics}} \bibinfo{volume}{28},
+  \bibinfo{number}{1} (\bibinfo{year}{2012}), \bibinfo{pages}{112--118}.
+\newblock
+\href{https://doi.org/10.1093/bioinformatics/btr597}{doi:\nolinkurl{10.1093/bioinformatics/btr597}}
+
+
+\bibitem[Stock and Watson(2002)]%
+        {stock2002}
+\bibfield{author}{\bibinfo{person}{James~H. Stock} {and}
+  \bibinfo{person}{Mark~W. Watson}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Forecasting Using Principal Components From a Large
+  Number of Predictors}.
+\newblock \bibinfo{journal}{\emph{J. Amer. Statist. Assoc.}}
+  \bibinfo{volume}{97}, \bibinfo{number}{460} (\bibinfo{year}{2002}),
+  \bibinfo{pages}{1167--1179}.
+\newblock
+\href{https://doi.org/10.1198/016214502388618960}{doi:\nolinkurl{10.1198/016214502388618960}}
+
+
+\bibitem[Tashiro et~al\mbox{.}(2021)]%
+        {tashiro2021}
+\bibfield{author}{\bibinfo{person}{Yusuke Tashiro}, \bibinfo{person}{Jiaming
+  Song}, \bibinfo{person}{Yang Song}, {and} \bibinfo{person}{Stefano Ermon}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{CSDI}: Conditional Score-based Diffusion Models
+  for Probabilistic Time Series Imputation}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, Vol.~\bibinfo{volume}{34}. \bibinfo{publisher}{Curran Associates,
+  Inc.}, \bibinfo{pages}{24804--24816}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.neurips.cc/paper/2021/hash/cfe8504bda37b575c70ee1a8276f3486-Abstract.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[van Buuren and Groothuis-Oudshoorn(2011)]%
+        {vanbuuren2011}
+\bibfield{author}{\bibinfo{person}{Stef van Buuren} {and}
+  \bibinfo{person}{Karin Groothuis-Oudshoorn}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{mice: Multivariate Imputation by Chained Equations
+  in {R}}.
+\newblock \bibinfo{journal}{\emph{Journal of Statistical Software}}
+  \bibinfo{volume}{45}, \bibinfo{number}{3} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{1--67}.
+\newblock
+\href{https://doi.org/10.18637/jss.v045.i03}{doi:\nolinkurl{10.18637/jss.v045.i03}}
+
+
+\bibitem[Wang et~al\mbox{.}(2025)]%
+        {wang2025}
+\bibfield{author}{\bibinfo{person}{Jun Wang}, \bibinfo{person}{Wenjie Du},
+  \bibinfo{person}{Yiyuan Yang}, \bibinfo{person}{Linglong Qian},
+  \bibinfo{person}{Wei Cao}, \bibinfo{person}{Keli Zhang},
+  \bibinfo{person}{Wenjia Wang}, \bibinfo{person}{Yuxuan Liang}, {and}
+  \bibinfo{person}{Qingsong Wen}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Deep Learning for Multivariate Time Series
+  Imputation: A Survey}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  Thirty-Fourth International Joint Conference on Artificial Intelligence
+  (IJCAI)}}. \bibinfo{publisher}{International Joint Conferences on Artificial
+  Intelligence Organization}, \bibinfo{pages}{10696--10704}.
+\newblock
+\href{https://doi.org/10.24963/ijcai.2025/1187}{doi:\nolinkurl{10.24963/ijcai.2025/1187}}
+
+
+\bibitem[Wolpert(1992)]%
+        {wolpert1992}
+\bibfield{author}{\bibinfo{person}{David~H. Wolpert}.}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{Stacked Generalization}.
+\newblock \bibinfo{journal}{\emph{Neural Networks}} \bibinfo{volume}{5},
+  \bibinfo{number}{2} (\bibinfo{year}{1992}), \bibinfo{pages}{241--259}.
+\newblock
+\href{https://doi.org/10.1016/S0893-6080(05)80023-1}{doi:\nolinkurl{10.1016/S0893-6080(05)80023-1}}
+
+
+\bibitem[Wu et~al\mbox{.}(2023)]%
+        {wu2023}
+\bibfield{author}{\bibinfo{person}{Haixu Wu}, \bibinfo{person}{Tengge Hu},
+  \bibinfo{person}{Yong Liu}, \bibinfo{person}{Hang Zhou},
+  \bibinfo{person}{Jianmin Wang}, {and} \bibinfo{person}{Mingsheng Long}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{TimesNet}: Temporal 2D-Variation Modeling for
+  General Time Series Analysis}. In \bibinfo{booktitle}{\emph{International
+  Conference on Learning Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=ju_Uqw384Oq}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Yoon et~al\mbox{.}(2019)]%
+        {yoon2019}
+\bibfield{author}{\bibinfo{person}{Jinsung Yoon}, \bibinfo{person}{William~R.
+  Zame}, {and} \bibinfo{person}{Mihaela van~der Schaar}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Estimating Missing Data in Temporal Data Streams
+  Using Multi-Directional Recurrent Neural Networks}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Biomedical Engineering}}
+  \bibinfo{volume}{66}, \bibinfo{number}{5} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{1477--1490}.
+\newblock
+\href{https://doi.org/10.1109/TBME.2018.2874712}{doi:\nolinkurl{10.1109/TBME.2018.2874712}}
+
+
+\bibitem[Zahmatkesh and Zech(2026)]%
+        {zahmatkesh2026}
+\bibfield{author}{\bibinfo{person}{Samira Zahmatkesh} {and}
+  \bibinfo{person}{Philipp Zech}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Spatio-Temporal Missing Data Imputation: A
+  Systematic Literature Review with a Focus on Statistical and Machine
+  Learning-Based Approaches}.
+\newblock \bibinfo{journal}{\emph{Comput. Surveys}} \bibinfo{volume}{58},
+  \bibinfo{number}{10}, Article \bibinfo{articleno}{267}
+  (\bibinfo{year}{2026}), \bibinfo{numpages}{41}~pages.
+\newblock
+\href{https://doi.org/10.1145/3797903}{doi:\nolinkurl{10.1145/3797903}}
+
+
+\end{thebibliography}

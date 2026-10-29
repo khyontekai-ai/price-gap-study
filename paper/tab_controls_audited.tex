@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\caption{Aggregate-exclusion and timing controls (MAPE, \%). A removes the target state's monthly average on the matched heavy-method cohort. B refits the four displayed methods at each origin on up to ten commodities per state, excluding the target aggregate and assigning monthly helpers an assumed release week. B retains retrospective cleaning and eligibility. Bold marks the lowest point estimate within each block; Cov. is empirical nominal-80\% coverage for \auto{}. A and B have different scoring cohorts.}
+\label{tab:controls}
+\small
+\setlength{\tabcolsep}{4.5pt}
+\begin{tabular}{l rrl rrrr rr}
+\toprule
+ & \multicolumn{3}{c}{A. no own monthly average (offline)} & \multicolumn{6}{c}{B. origin-restricted fitting} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-10}
+State & \auto{} with & \auto{} without & best baseline & \auto{} & bridge & carry-fwd & Kalman & Cov. & Cells \\
+\midrule
+Assam & 19.8 & \textbf{19.8} & 30.1 (SAITS) & \textbf{18.4} & 18.6 & 46.5 & 48.1 & 79.2 & 8473 \\
+Meghalaya & 15.7 & \textbf{15.9} & 16.2 (linear) & 17.7 & 17.8 & \textbf{17.0} & 17.7 & 58.1 & 1381 \\
+Manipur & 13.4 & \textbf{13.8} & 17.0 (SAITS) & 15.3 & \textbf{14.8} & 30.3 & 31.0 & 59.7 & 918 \\
+Nagaland & 19.3 & 19.4 & 18.7 (Kalman) & 23.2 & \textbf{22.8} & 24.0 & 23.3 & 60.9 & 2418 \\
+Tripura & 19.6 & \textbf{20.0} & 24.3 (chained ML) & 19.1 & \textbf{18.9} & 35.4 & 35.4 & 74.9 & 8227 \\
+NE pooled & 19.3 & \textbf{19.4} & 26.5 (SAITS) & 19.0 & \textbf{19.0} & 37.1 & 37.7 & 73.3 & 21417 \\
+\midrule
+Bihar & 14.1 & \textbf{15.4} & 21.1 (kNN) & \textbf{16.7} & 18.1 & 32.2 & 32.1 & 62.8 & 924 \\
+Goa & 10.0 & 13.9 & 13.7 (linear) & \textbf{8.6} & 9.2 & 9.1 & 10.9 & 90.0 & 40 \\
+\bottomrule
+\end{tabular}
+\end{table*}

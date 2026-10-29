@@ -1,0 +1,21 @@
+\begin{table*}[tbp]
+\caption{Exploratory paired comparisons, North-East pooled, offline ($\approx$56{,}000 matched hidden cells, 1{,}080 series). Cell-level Holm-adjusted Wilcoxon $p$ values assume independence not met here; series-bootstrap intervals omit cross-market dependence.}
+\label{tab:tests}
+\small
+\begin{tabular}{lrrrl}
+\toprule
+Baseline & Its MAPE & Ours better (\% of cells) & Holm $p$ & MAPE gain, points (95\% CI) \\
+\midrule
+SAITS & 26.5 & 58.6 & $<0.001$ & 7.2 (6.2 to 8.4) \\
+chained ML & 26.7 & 58.1 & $<0.001$ & 7.5 (6.5 to 8.6) \\
+BRITS & 28.6 & 61.3 & $<0.001$ & 9.3 (8.2 to 10.6) \\
+SoftImpute & 33.5 & 68.5 & $<0.001$ & 14.2 (12.9 to 15.5) \\
+kNN & 33.7 & 65.9 & $<0.001$ & 14.5 (13.2 to 15.9) \\
+linear & 36.6 & 63.7 & $<0.001$ & 17.3 (15.5 to 19.0) \\
+PCHIP & 36.6 & 63.4 & $<0.001$ & 17.3 (15.5 to 19.0) \\
+Kalman & 36.7 & 64.8 & $<0.001$ & 17.5 (15.7 to 19.3) \\
+DFM-EM & 39.8 & 64.7 & $<0.001$ & 20.5 (18.6 to 22.6) \\
+carry-forward & 41.8 & 66.8 & $<0.001$ & 22.5 (20.5 to 24.5) \\
+\bottomrule
+\end{tabular}
+\end{table*}
